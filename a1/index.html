@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+
+<!-- 
+    Author: Leslie Jacobs
+    Date:  12/29/19
+-->
+
+	<title>Places I've Lived</title>
+	<meta charset="utf-8">
+    <link href="a1.css" rel="stylesheet" />
+    <script type="text/javascript" src="ai.js"></script>  
+	
+</head>
+
+<body>
+
+<div id="wrapper">
+    
+<section>
+    
+<header><h3>Leslie Jacobs</h3></header>
+
+<nav>
+		
+    <p>I have lived in three States - New York, Maryland, and Florida.</p>
+    <p>Enter the two character abbreviation for either State to see the cities where I've lived.</p>
+
+    <input id="userInput" type="text">
+
+    <!-- guessCity function is called which executes the switch statement
+    -->
+    <button onclick="guessCity()">Click Here!</button>
+
+    <h4><p id="home"></p></h4>
+    <br>
+    <br>
+
+    <p>Click the years to see which cities I lived in during that time.</p>
+    
+    <!-- Buttons contain index values for citiesarray1 -->
+    <button onclick="yearsCity('0')">1968 - 1992</button>
+    <button onclick="yearsCity('1')">1992 - 1996</button>
+    <button onclick="yearsCity('2')">1996 - 2001</button>
+    <button onclick="yearsCity('3')">2001 - 2006</button>
+    <button onclick="yearsCity('4')">2006 - 2010</button>
+    <button onclick="yearsCity('5')">2010 - Current</button>
+    
+    <h4><p id="city"></p></h4>
+    
+    <br>
+    <br>
+    <p>I was born in Buffalo, NY at Millard Fillmore Hospital in the downtown area,  which was demolished on October, 3, 2015.  Both Cheektowaga and Kenmore are suburbs of this city.  To me, Buffalo will always be home -- and I have every intention of moving back there someday.  Please click the button below to see a wonderful, short documentary about my home.</p>
+    
+    <button onclick="bfloPopup()">Click here to see Buffalo, NY!</button>
+
+</nav>
+    
+</section>
+	
+<footer>
+    <p>Posted by: Leslie Jacobs</p>
+    <p>Contact information: <a href="mailto:leslie.m.jacobs@gmail.com">EMAIL</a></p>
+
+</footer> 
+	
+</div>
+
+</body>
+
+</html>
