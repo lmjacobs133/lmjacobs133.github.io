@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LESLIE JACOBS</title>
+        <meta name="description" content="Spam, Ham & Eggs">
+        <link rel="stylesheet" href="CSS/CSSJS0120.css">
+        <script src="HamEggs.js" defer></script>    
+        <link rel="stylesheet" href="/CSS/COP2801.css">
+        <style> 
+            body { 
+                text-align:center; 
+            } 
+        </style> 
+    </head>
+    <body>        
+         
+    
+       
+        <h1>Ham & Eggs</h1>  
+        
+
+        <p><h2>To view resluts, enable Web Console using Developer Tools for Browser.</h2></p>
+
+            
+			<footer>
+            <h4>Contact information: <a href="mailto:leslie.m.jacobs@gmail.com">EMAIL</a></h4>
+            
+            
+            <p>Current date and time:   <span id="datetime"></span></p>
+
+                <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toUTCString();
+
+                </script> 
+
+            <p>Page last updated:  <span id="lastupdated"></span></p>
+
+                <script>document.getElementById("lastupdated").innerHTML = document.lastModified;
+
+                </script>
+             
+			</footer> 
+                                
+    </body>
+</html>
